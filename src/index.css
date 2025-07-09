@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-primary: hsl(14, 86%, 42%);
+  --color-primary-light: hsl(7, 20%, 60%);
+  --color-primary-light-2: hsl(13, 31%, 94%);
+  --color-primary-light-3: hsl(20, 50%, 98%);
+  --color-primary-dark: hsl(14, 65%, 9%);
+  --color-secondary: hsl(12, 20%, 44%);
+  --color-secondary-light: hsl(14, 25%, 72%);
+  --color-tertiary: hsl(159, 69%, 38%);
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  @apply max-w-[1240px] mx-auto px-4;
+}
+
+.labell {
+  @apply text-sm lg:text-[16px] font-medium text-gray-600 block;
+}
+
+.inputt {
+  @apply w-full block border border-secondary-light mb-1 rounded-md py-2 px-9 focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary bg-[#d5dbb9] text-gray-800;
+}
+
+.spann {
+  @apply text-red-600 text-sm md:text-base;
+}
+
+.input-icon {
+  @apply absolute bottom-[30%] left-2;
+}

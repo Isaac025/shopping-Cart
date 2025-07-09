@@ -1,0 +1,13 @@
+<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- IO Initials with Shopping Bag Integration -->
+  <rect x="8" y="8" width="32" height="32" rx="6" fill="#2563EB"/>
+  <path d="M16 16H28V28H16V16Z" fill="white"/>
+  <path d="M32 16H44V28H32V16Z" fill="white"/>
+  
+  <!-- Shopping Bag Handle -->
+  <path d="M12 16H8V20H12V16Z" fill="#1E40AF"/>
+  <path d="M44 16H48V20H44V16Z" fill="#1E40AF"/>
+  
+  <!-- STORES Text -->
+  <text x="60" y="32" font-family="'Red Hat Text', sans-serif" font-weight="600" font-size="20" fill="#1F2937">STORES</text>
+</svg>

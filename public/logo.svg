@@ -1,0 +1,16 @@
+<!-- public/shopping-cart-io.svg -->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cart Body -->
+  <path d="M30 10L15 30V100C15 106.627 20.3726 112 27 112H93C99.6274 112 105 106.627 105 100V30L90 10H30Z" fill="#3B82F6" stroke="#1D4ED8" stroke-width="4"/>
+  
+  <!-- Cart Handle -->
+  <path d="M15 30H105" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- IO Initials -->
+  <rect x="45" y="50" width="10" height="30" rx="5" fill="white"/>
+  <rect x="65" y="50" width="10" height="30" rx="5" fill="white"/>
+  
+  <!-- Optional Cart Wheels -->
+  <circle cx="35" cy="102" r="5" fill="#1D4ED8"/>
+  <circle cx="85" cy="102" r="5" fill="#1D4ED8"/>
+</svg>
