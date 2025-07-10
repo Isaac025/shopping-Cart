@@ -14,9 +14,14 @@ import { CgClose } from "react-icons/cg";
 const phoneRegex =
   /^(\+234|234|0)(701|702|703|704|705|706|707|708|709|802|803|804|805|806|807|808|809|810|811|812|813|814|815|816|817|818|819|909|908|901|902|903|904|905|906|907)([0-9]{7})$/;
 
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 const validationSchema = Yup.object().shape({
   fullName: Yup.string().required("Full Name is required"),
-  email: Yup.string().required("Email is required").email("Email is invalid"),
+  email: Yup.string()
+    .required("Email is required")
+    .matches(emailRegex, "Email is Invalid")
+    .email("Email is invalid"),
   password: Yup.string()
     .required("Password is required")
     .min(6, "Password must be at least 6 characters")
